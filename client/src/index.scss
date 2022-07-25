@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;200;300;400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anek Latin", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.popularityTable {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  border-collapse: collapse;
+  width: 50vw;
+  th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+  td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+  }
+}

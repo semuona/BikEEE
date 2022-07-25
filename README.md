@@ -5,7 +5,7 @@ Tools: React, JavaScript, Node, MUI, SASS
 # Achieved Tasks:
 
 1. Retrieve data from CSV file
-2. Fix line breaking problem from CVS file
+2. Fix line breaking problem from CSV file
 3. Validate users provided slightly different bike model
 4. Display bike models by its popularity
 
@@ -15,8 +15,8 @@ Learn & Implement testing using context
 
 # Comments
 
-Spent little more time then expected as it was my first attempt parse CVS file. Was little tricky at first but also very exciting.
-Regarding validation and CVS file layout, had to refresh my memory with array methods, witch was great!
+Spent little more time then expected as it was my first attempt parse CSV file. Was little tricky at first but also very exciting.
+Regarding validation and CSV file layout, had to refresh my memory with array methods, witch was great!
 
 Due to lack of time, I couldn't write tests to check if my function to find most popular bikes works. It also got tricky as I used context and even when i debugged screen, content was not showing.
 

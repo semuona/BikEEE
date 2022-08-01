@@ -15,7 +15,7 @@ Learn & Implement testing using context
 
 # Comments
 
-Spent little more time then expected as it was my first attempt parse CSV file. Was little tricky at first but also very exciting.
+Spent little more time than expected as it was my first attempt parse CSV file. Was little tricky at first but also very exciting.
 Regarding validation and CSV file layout, had to refresh my memory with array methods, witch was great!
 
 Due to lack of time, I couldn't write tests to check if my function to find most popular bikes works. It also got tricky as I used context and even when i debugged screen, content was not showing.

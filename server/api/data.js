@@ -6,7 +6,7 @@ const router = express.Router();
 const filePath = require("path").resolve(__dirname, "../data/data.csv");
 let data = [];
 
-//retrieving all data from csv file
+//retrieving all data from csv file // vertical
 const getData = async () => {
   if (data.length === 0) {
     data = await csvtojson().fromFile(filePath);
@@ -16,7 +16,7 @@ const getData = async () => {
 };
 getData();
 
-// add the lines that is less than 6 to this variable.
+// add the lines that is less than 6 to this variable.   // horizontal
 let inputToFix = [];
 const getDataByLine = async () => {
   await csvtojson({ output: "line" })

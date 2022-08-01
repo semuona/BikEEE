@@ -36,6 +36,7 @@ export default function BikeAppProvider({ children }) {
       if (counter % 2 === 0) {
         result.push(curr);
       } else {
+        //concatenate items
         result[result.length - 1] += " " + curr;
       }
       counter++;
@@ -60,8 +61,9 @@ export default function BikeAppProvider({ children }) {
   useEffect(() => {
     let result = [];
 
+    /*fixedInput is: ["97,AwesomeBikes,Dirt-Drifter-3000,1600,387,2021-05-20", ...] ---->> [ ["97"],["AwesomeBikes"],...] */
     fixedInput.map((item, idx) => {
-      //converting to an array and mapping through each item accordingly
+      //converting to an array  and mapping through each item accordingly
       let itemArray = item.split(",");
       let itemObject = {};
 
@@ -135,8 +137,10 @@ export default function BikeAppProvider({ children }) {
     let uniqModel = {};
 
     const arrFiltered = popularBikes.filter(
+      //if undefined then it will assign true
       (obj) => !uniqModel[obj.model] && (uniqModel[obj.model] = true)
     );
+
     setPopularBikesResults(arrFiltered);
   }, [combinedData]);
 
